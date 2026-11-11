@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="1440" viewBox="0 0 1250 1440">
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#46665b" stroke-width="1.5"/></marker>
+<marker id="inherit" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M1,1 L14,8 L1,15 Z" fill="white" stroke="#46665b" stroke-width="1.5"/></marker>
+</defs><rect width="1250" height="1440" fill="#f4f5f0"/>
+<style>text{font-family:Arial,sans-serif;fill:#192b2b} .title{font-size:21px;font-weight:bold} .body{font-size:15px} .edge{font-size:13px;fill:#46665b}</style>
+<path d="M440 108 H370" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#inherit)"/>
+<text x="388" y="94" class="edge">extends</text>
+<path d="M780 108 H850" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M610 224 V270" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M850 175 H812 V350 H780" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<path d="M475 501 V530 H195 V570" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="245" y="519" class="edge">0..20 users</text>
+<path d="M475,501 l-6,9 l6,9 l6,-9 Z" fill="#46665b" stroke="#46665b"/>
+<path d="M610 501 V570" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="624" y="547" class="edge">1</text>
+<path d="M610,501 l-6,9 l6,9 l6,-9 Z" fill="#46665b" stroke="#46665b"/>
+<path d="M750 501 V530 H1030 V570" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="867" y="519" class="edge">1</text>
+<path d="M750,501 l-6,9 l6,9 l6,-9 Z" fill="#46665b" stroke="#46665b"/>
+<path d="M195 847 V905" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="210" y="881" class="edge">1</text>
+<path d="M195,847 l-6,9 l6,9 l6,-9 Z" fill="#46665b" stroke="#46665b"/>
+<path d="M850 690 H780" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="790" y="678" class="edge">updates</text>
+<path d="M650 778 V863 H1030 V905" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="740" y="853" class="edge">listings 1..*</text>
+<path d="M650,778 l-6,9 l6,9 l6,-9 Z" fill="white" stroke="#46665b"/>
+<path d="M370 986 H850" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="512" y="975" class="edge">shares 0..100</text>
+<path d="M370,986 l9,-6 l9,6 l-9,6 Z" fill="white" stroke="#46665b"/>
+<path d="M195 1159 V1260 H440" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="235" y="1248" class="edge">receipts 0..*</text>
+<path d="M195,1159 l-6,9 l6,9 l6,-9 Z" fill="#46665b" stroke="#46665b"/>
+<path d="M780 1310 H1030 V1182" fill="none" stroke="#46665b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="900" y="1299" class="edge">1 player</text>
+<rect x="20" y="50" width="350" height="116" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M20 89 H370" stroke="#46665b"/>
+<text x="34" y="77" class="title">GCanvas (ACM)</text>
+<path d="M20 99 H370" stroke="#d9dfd7"/>
+<text x="34" y="124" class="body">+ add(GObject): void</text>
+<text x="34" y="147" class="body">+ paint(Graphics): void</text>
+<rect x="440" y="20" width="340" height="231" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M440 59 H780" stroke="#46665b"/>
+<text x="454" y="47" class="title">FantasyExchangeGUI</text>
+<text x="454" y="83" class="body">- exchange: FantasyExchange</text>
+<text x="454" y="106" class="body">- currentUser: User</text>
+<text x="454" y="129" class="body">- selected: Player</text>
+<path d="M440 138 H780" stroke="#d9dfd7"/>
+<text x="454" y="163" class="body">+ drawDashboard(): void</text>
+<text x="454" y="186" class="body">+ drawMarketplace(): void</text>
+<text x="454" y="209" class="body">+ drawPortfolio(): void</text>
+<text x="454" y="232" class="body">+ handleMouseInput(x,y): void</text>
+<rect x="850" y="50" width="360" height="116" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M850 89 H1210" stroke="#46665b"/>
+<text x="864" y="77" class="title">SaveManager</text>
+<path d="M850 99 H1210" stroke="#d9dfd7"/>
+<text x="864" y="124" class="body">+ save(exchange, path): void</text>
+<text x="864" y="147" class="body">+ load(path): FantasyExchange</text>
+<rect x="440" y="270" width="340" height="231" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M440 309 H780" stroke="#46665b"/>
+<text x="454" y="297" class="title">FantasyExchange</text>
+<text x="454" y="333" class="body">- users: ArrayList&lt;User&gt;</text>
+<text x="454" y="356" class="body">- market: Market</text>
+<text x="454" y="379" class="body">- dataManager: NFLDataManager</text>
+<path d="M440 388 H780" stroke="#d9dfd7"/>
+<text x="454" y="413" class="body">+ registerUser(user): void</text>
+<text x="454" y="436" class="body">+ login(name): User</text>
+<text x="454" y="459" class="body">+ updateMarket(): void</text>
+<text x="454" y="482" class="body">+ getLeaderboard(): ArrayList&lt;User&gt;</text>
+<rect x="20" y="570" width="350" height="277" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M20 609 H370" stroke="#46665b"/>
+<text x="34" y="597" class="title">User</text>
+<text x="34" y="633" class="body">- username: String</text>
+<text x="34" y="656" class="body">- tokens: int (hundredths)</text>
+<text x="34" y="679" class="body">- portfolio: Portfolio</text>
+<path d="M20 688 H370" stroke="#d9dfd7"/>
+<text x="34" y="713" class="body">+ canAfford(player): boolean</text>
+<text x="34" y="736" class="body">+ buyPlayer(player): boolean</text>
+<text x="34" y="759" class="body">+ sellPlayer(player): boolean</text>
+<text x="34" y="782" class="body">+ addTokens(amount): void</text>
+<text x="34" y="805" class="body">+ getBalance(): double</text>
+<text x="34" y="828" class="body">+ getNetWorth(): double</text>
+<rect x="440" y="570" width="340" height="208" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M440 609 H780" stroke="#46665b"/>
+<text x="454" y="597" class="title">Market</text>
+<text x="454" y="633" class="body">- availablePlayers: ArrayList&lt;Player&gt;</text>
+<path d="M440 642 H780" stroke="#d9dfd7"/>
+<text x="454" y="667" class="body">+ searchPlayer(name): Player</text>
+<text x="454" y="690" class="body">+ filterPlayers(...): ArrayList</text>
+<text x="454" y="713" class="body">+ sortByPrice(): void</text>
+<text x="454" y="736" class="body">+ sortedByPrice(players): ArrayList</text>
+<text x="454" y="759" class="body">+ updatePrices(): void</text>
+<rect x="850" y="570" width="360" height="208" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M850 609 H1210" stroke="#46665b"/>
+<text x="864" y="597" class="title">NFLDataManager</text>
+<text x="864" y="633" class="body">- market: Market</text>
+<text x="864" y="656" class="body">- week: int</text>
+<path d="M850 665 H1210" stroke="#d9dfd7"/>
+<text x="864" y="690" class="body">+ fetchPlayerStats(): String</text>
+<text x="864" y="713" class="body">+ updatePlayerStats(): void</text>
+<text x="864" y="736" class="body">+ calculateFantasyPoints(): double</text>
+<text x="864" y="759" class="body">+ getWeek(): int</text>
+<rect x="20" y="905" width="350" height="254" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M20 944 H370" stroke="#46665b"/>
+<text x="34" y="932" class="title">Portfolio</text>
+<text x="34" y="968" class="body">- ownedPlayers: ArrayList&lt;Player&gt;</text>
+<text x="34" y="991" class="body">- history: ArrayList&lt;Transaction&gt;</text>
+<path d="M20 1000 H370" stroke="#d9dfd7"/>
+<text x="34" y="1025" class="body">+ addPlayer(player): void</text>
+<text x="34" y="1048" class="body">+ removePlayer(player): void</text>
+<text x="34" y="1071" class="body">+ countShares(player): int</text>
+<text x="34" y="1094" class="body">+ getPortfolioValue(): double</text>
+<text x="34" y="1117" class="body">+ getTotalProfit(): double</text>
+<text x="34" y="1140" class="body">+ getAverageCost(player): double</text>
+<rect x="850" y="905" width="360" height="277" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M850 944 H1210" stroke="#46665b"/>
+<text x="864" y="932" class="title">Player</text>
+<text x="864" y="968" class="body">- name, position, team: String</text>
+<text x="864" y="991" class="body">- marketPrice: double</text>
+<text x="864" y="1014" class="body">- previousPrice: double</text>
+<text x="864" y="1037" class="body">- weeklyStats: int[][]</text>
+<path d="M850 1046 H1210" stroke="#d9dfd7"/>
+<text x="864" y="1071" class="body">+ calculateFantasyPoints(): double</text>
+<text x="864" y="1094" class="body">+ getWeekPoints(week): double</text>
+<text x="864" y="1117" class="body">+ getAveragePoints(): double</text>
+<text x="864" y="1140" class="body">+ updateMarketPrice(): void</text>
+<text x="864" y="1163" class="body">+ addWeek(stats): void</text>
+<rect x="440" y="1215" width="340" height="185" rx="3" fill="white" stroke="#46665b" stroke-width="1.5"/>
+<path d="M440 1254 H780" stroke="#46665b"/>
+<text x="454" y="1242" class="title">Transaction</text>
+<text x="454" y="1278" class="body">- player: Player</text>
+<text x="454" y="1301" class="body">- type: String</text>
+<text x="454" y="1324" class="body">- price: double</text>
+<text x="454" y="1347" class="body">- date: String</text>
+<path d="M440 1356 H780" stroke="#d9dfd7"/>
+<text x="454" y="1381" class="body">+ getTransactionDetails(): String</text>
+<text x="24" y="1414" class="edge">Filled diamond: composition. Open diamond: shared references. Dashed arrow: dependency.</text>
+</svg>
